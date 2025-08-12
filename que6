@@ -2,8 +2,9 @@
 void main()
 {
 printf("enter marks\n");
-int m;
-scanf("%d",&m);
+int x,y,z,m;
+scanf("%d,%d,%d",&x,&y,&z);
+m=x+y+z/3
 if(m>=70)
 {
     printf("distinction");
